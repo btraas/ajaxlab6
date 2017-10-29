@@ -1,0 +1,20 @@
+﻿@model IEnumerable<AjaxLab.Models.Product>
+<table>
+    <tr>
+        <th>Product ID</th>
+        <th>Product Name</th>
+        <th>Supplier ID</th>
+        <th>Category ID</th>
+        <th>Unit Price</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ProductID</td>
+            <td>@item.ProductName</td>
+            <td>@item.SupplierID</td>
+            <td>@item.CategoryID</td>
+            <td>@item.UnitPrice</td>
+        </tr>
+    }
+</table>

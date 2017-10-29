@@ -1,0 +1,24 @@
+﻿@model IEnumerable<AjaxLab.Models.Product>
+@using (Ajax.BeginForm("ProductTable", "Products",
+                            new AjaxOptions
+                            {
+                                HttpMethod = "GET",
+                                UpdateTargetId = "productTable",
+                                OnFailure = "searchFailed"
+                            }))
+{
+    <span>Category:</span>
+    @Html.DropDownList("categoryID", (SelectList)ViewBag.categories, " -- Any Category -- ")
+    
+    <span>Suppliers:</span>
+    @Html.DropDownList("supplierID", (SelectList)ViewBag.suppliers, " -- Any Supplier -- ")
+    <br />
+
+    <input id="searchBox" type="text" name="query" />
+        <input type="submit" value="search" />
+}
+
+
+<div id="productTable">
+    @Html.Partial("_ProductTablePartial", Model)
+</div>

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<AjaxLab.Models.Product>
+@{
+    ViewBag.Title = "Home Page";
+
+    //List<SelectListItem> categories = new List<SelectListItem>();
+
+    //for(Category c : ViewBag.Categories)
+
+    //listItems.Add(new SelectListItem
+    //{
+    //    Text = "Exemplo1",
+    //    Value = "Exemplo1"
+    //});
+    //listItems.Add(new SelectListItem
+    //{
+    //    Text = "Exemplo2",
+    //    Value = "Exemplo2",
+    //    Selected = true
+    //});
+    //listItems.Add(new SelectListItem
+    //{
+    //    Text = "Exemplo3",
+    //    Value = "Exemplo3"
+    //});
+
+}
+
+
+<div class="jumbotron">
+    
+
+
+    @*<br />
+        Search: <input placeholder="search" />*@
+
+    @Html.Partial("ProductTable")
+
+
+
+</div>

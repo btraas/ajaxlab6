@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxLab", "AjaxLab\AjaxLab.csproj", "{C545C4D8-74B1-4B0D-B29B-A7C13EA62669}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C545C4D8-74B1-4B0D-B29B-A7C13EA62669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C545C4D8-74B1-4B0D-B29B-A7C13EA62669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C545C4D8-74B1-4B0D-B29B-A7C13EA62669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C545C4D8-74B1-4B0D-B29B-A7C13EA62669}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E45C288-A5CE-4F20-9E04-F043C8DD7A29}
+	EndGlobalSection
+EndGlobal
